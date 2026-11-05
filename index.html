@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"surface-container-lowest":"#ffffff","on-secondary-container":"#785a1a","surface-container-low":"#fff0ee","on-primary-container":"#c57a8b","on-tertiary":"#ffffff","tertiary-fixed-dim":"#ffb1c2","error-container":"#ffdad6","secondary-fixed":"#ffdea5","surface-container-highest":"#f4ddda","surface":"#fff8f6","inverse-on-surface":"#ffedea","tertiary":"#310011","on-primary":"#ffffff","on-tertiary-container":"#d1738a","on-tertiary-fixed":"#3f0018","surface-container-high":"#fae3df","inverse-primary":"#ffb1c2","surface-dim":"#ecd5d1","on-secondary-fixed-variant":"#5d4201","primary":"#2f0211","on-error-container":"#93000a","error":"#ba1a1a","primary-container":"#4a1525","primary-fixed":"#ffd9df","surface-container":"#ffe9e5","tertiary-container":"#510c25","inverse-surface":"#3b2d2b","secondary":"#775a19","on-secondary":"#ffffff","surface-variant":"#f4ddda","on-tertiary-fixed-variant":"#792c43","tertiary-fixed":"#ffd9e0","secondary-container":"#fed488","outline":"#847375","on-primary-fixed":"#3a0819","on-surface":"#251917","secondary-fixed-dim":"#e9c176","primary-fixed-dim":"#ffb1c2","on-error":"#ffffff","on-primary-fixed-variant":"#703343","surface-bright":"#fff8f6","on-background":"#251917","background":"#fff8f6","on-secondary-fixed":"#261900","surface-tint":"#8c4a5a","outline-variant":"#d7c1c4","on-surface-variant":"#524346"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xs":"0.375rem","gutter-tablet":"1.5rem","space-lg":"2.25rem","gutter":"2rem","margin-tablet":"2.5rem","gutter-mobile":"1rem","margin-mobile":"1.5rem","space-xl":"3.5rem","space-md":"1.25rem","margin":"4rem","space-sm":"0.75rem"},"fontFamily":{"body-lg":["Plus Jakarta Sans"],"display-lg":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"headline-sm":["Playfair Display"],"body-xl":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"display-xl-mobile":["Playfair Display"],"body-md":["Plus Jakarta Sans"],"display-xl":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"headline-md":["Playfair Display"],"label-sm":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"display-lg-mobile":["Playfair Display"]},"fontSize":{"body-lg":["1.125rem",{"lineHeight":"1.85rem","letterSpacing":"0.005em","fontWeight":"400"}],"display-lg":["3.25rem",{"lineHeight":"3.75rem","letterSpacing":"-0.015em","fontWeight":"400"}],"label-md":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.18em","fontWeight":"600"}],"headline-sm":["1.375rem",{"lineHeight":"1.875rem","letterSpacing":"0.01em","fontWeight":"600"}],"body-xl":["1.25rem",{"lineHeight":"2rem","letterSpacing":"0.01em","fontWeight":"300"}],"label-lg":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.15em","fontWeight":"600"}],"body-sm":["0.875rem",{"lineHeight":"1.45rem","letterSpacing":"0.015em","fontWeight":"400"}],"display-xl-mobile":["2.75rem",{"lineHeight":"3.25rem","letterSpacing":"-0.01em","fontWeight":"400"}],"body-md":["1rem",{"lineHeight":"1.65rem","letterSpacing":"0.01em","fontWeight":"400"}],"display-xl":["4.5rem",{"lineHeight":"5rem","letterSpacing":"-0.02em","fontWeight":"400"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"0em","fontWeight":"500"}],"headline-md":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"0em","fontWeight":"500"}],"label-sm":["0.6875rem",{"lineHeight":"0.875rem","letterSpacing":"0.22em","fontWeight":"600"}],"headline-lg":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.01em","fontWeight":"500"}],"display-lg-mobile":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"0em","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-primary-container text-on-primary py-space-xs px-margin-mobile md:px-margin-tablet lg:px-margin text-center"><div class="max-w-[1440px] mx-auto flex items-center justify-between text-center"><p class="w-full text-center font-label-sm text-label-sm uppercase tracking-widest text-surface-container-high">Showroom Open: Gandhi Bazar Main Road, Shivamogga • Concierge: <a class="underline tracking-normal hover:text-surface-container-lowest transition-colors" href="tel:+916363330107">+91 63633 30107</a></p></div></div><div class="h-24 max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm"><img alt="Pearl Collection Luxury Monogram" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvIpvJ4MnrPT3TabcUDUo-JRjiBA7noheity0GyAuczFOxEV5ah0GITMxoAYwwPoQIbjSZ6b1fv2UB2jZMDg5CvV-MTZdF9_zCTnQCrA1YmT-oZXdoHHXhE26dMXxNXEnQVKtvgAdHQCYenHygNjBs1vmTDF5hNFJ7WINtDeDiQRj9fzesMe4gI48I4E7Ui1hLxDG9qn4srdEcZf4rDUlzBLumkVgQmcGrR3NVabM"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase tracking-wider text-primary leading-none">Pearl Collection</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary mt-0.5">Family Showroom • Shivamogga</span></div></div><nav class="hidden xl:flex items-center gap-space-sm" data-active-classes="bg-surface-container-high text-primary font-semibold"><a aria-current="page" class="uppercase px-space-xs py-space-xs transition-colors bg-surface-container-high text-primary font-semibold" data-path="the-edit" href="#">The Edit</a><a class="font-label-md text-label-md uppercase px-space-xs py-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="womens-couture" href="#">Women's Couture</a><a class="font-label-md text-label-md uppercase px-space-xs py-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="mens-occasionwear" href="#">Men's Occasionwear</a><a class="font-label-md text-label-md uppercase px-space-xs py-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="kids-celebration" href="#">Kids' Celebration</a><a class="font-label-md text-label-md uppercase px-space-xs py-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="wedding-atelier" href="#">Wedding Atelier</a><a class="font-label-md text-label-md uppercase px-space-xs py-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="showroom-experience" href="#">Showroom Experience</a><a class="font-label-md text-label-md uppercase px-space-xs py-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="visit-and-location" href="#">Visit &amp; Location</a></nav><div class="flex items-center gap-space-sm"><a class="hidden sm:inline-flex items-center gap-space-xs bg-[#244e3d] text-surface-container-lowest font-label-md text-label-md uppercase tracking-wider px-space-md py-space-xs hover:bg-[#1a382c] transition-colors" href="https://wa.me/916363330107?text=Hello%20Pearl%20Collection,%20I%20would%20like%20to%20reserve%20a%20private%20showroom%20styling%20appointment." rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">chat</span><span>WhatsApp Concierge</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-24 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- LOCAL BUSINESS SEO SCHEMA -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ClothingStore",
+    "name": "Pearl Collection Family Showroom",
+    "image": "placeholder",
+    "@id": "https://pearlcollectionshivamogga.in",
+    "url": "https://pearlcollectionshivamogga.in",
+    "telephone": "+916363330107",
+    "priceRange": "₹₹₹",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Opposite Kanika Parmeshwari Temple, Near Hira Cut Piece, Gandhi Bazar Main Road",
+      "addressLocality": "Shivamogga",
+      "addressRegion": "Karnataka",
+      "postalCode": "577202",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 13.9299,
+      "longitude": 75.5681
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "10:00",
+        "closes": "21:30"
+      }
+    ],
+    "department": [
+      {
+        "@type": "ClothingStore",
+        "name": "Women's Couture & Bridal Kanjivarams"
+      },
+      {
+        "@type": "ClothingStore",
+        "name": "Men's Occasionwear & Royal Sherwanis"
+      },
+      {
+        "@type": "ClothingStore",
+        "name": "Kids' Celebration Wear"
+      },
+      {
+        "@type": "ClothingStore",
+        "name": "Family Wedding Coordination Atelier"
+      }
+    ]
+  }
+  </script>
+<!-- =========================================================================
+       1. HERO SECTION: CINEMATIC EDITORIAL SPLIT
+       ========================================================================= -->
+<section class="relative w-full overflow-hidden bg-surface py-space-lg lg:py-space-xl px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Text Narrative Column -->
+<div class="lg:col-span-5 flex flex-col z-10 order-2 lg:order-1">
+<div class="flex items-center gap-space-xs mb-space-sm">
+<span class="w-8 h-[1px] bg-secondary"></span>
+<span class="font-label-md text-label-md text-secondary tracking-widest uppercase">The Pearl Edit • Shivamogga</span>
+</div>
+<h1 class="font-display-xl text-display-xl-mobile md:text-display-lg lg:text-display-xl text-primary font-normal leading-[1.08] tracking-tight mb-space-md">
+          Every generation.<br/>
+<span class="italic font-display-xl text-secondary">A style of its own.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-space-lg">
+          Discover timeless elegance, contemporary fashion, and heirloom creations for every milestone at Shivamogga's premier multi-generation luxury showroom on Gandhi Bazar Main Road.
+        </p>
+<!-- Primary & Secondary Actions -->
+<div class="flex flex-wrap items-center gap-space-sm mb-space-lg">
+<a class="inline-flex items-center justify-center font-label-md text-label-md uppercase tracking-widest px-space-lg py-space-md bg-primary text-on-primary hover:bg-primary-container shadow-md transition-all duration-300" href="#collections">
+<span>Explore Collections</span>
+<span class="material-symbols-outlined ml-space-xs text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center font-label-md text-label-md uppercase tracking-widest px-space-lg py-space-md bg-surface-container-high text-primary hover:bg-surface-container-highest transition-all duration-300" href="#showroom-location">
+<span>Visit Showroom</span>
+<span class="material-symbols-outlined ml-space-xs text-[18px]">storefront</span>
+</a>
+</div>
+<!-- Quick Verified Badges -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm pt-space-md bg-surface-container-low/70 p-space-sm">
+<div class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px] shrink-0 mt-0.5">location_on</span>
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface leading-tight">Opp. Kanika Parmeshwari Temple, Gandhi Bazar</p>
+</div>
+<div class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px] shrink-0 mt-0.5">verified</span>
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface leading-tight">Curated Family Fashion Since Inception</p>
+</div>
+<div class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[#244e3d] text-[20px] shrink-0 mt-0.5">chat</span>
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface leading-tight">Direct WhatsApp:<br/><a class="font-bold underline text-[#244e3d]" href="https://wa.me/916363330107" rel="noopener noreferrer" target="_blank">+91 63633 30107</a></p>
+</div>
+</div>
+</div>
+<!-- Hero Visual Composition (Storefront + Bridal Masterpiece) -->
+<div class="lg:col-span-7 order-1 lg:order-2 grid grid-cols-12 gap-space-sm relative">
+<!-- Main Grand Storefront Image -->
+<div class="col-span-8 overflow-hidden shadow-xl bg-surface-container-low relative group">
+<div class="aspect-[4/5] w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Grand multi-storey illuminated architectural exterior and warm illuminated interior showroom of Pearl Collection Gandhi Bazar Shivamogga, with royal red draped windows, high ceilings, glittering crystal chandeliers, bespoke mannequins displaying rich red bridal silk sarees and regal men's sherwanis under evening ambient lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiqNgrHVZhYhk9RGX2lG232S4EIO_w5hcMPQLXrmyPH5VqVxJsYRBKjcgER8Q_ooofZ2x-prM4Du5kCHLn6CzOnFQgDk6GRPPLayosvIw5GXCTMj-atjwbK15Yq0AGI8QwSYrVQYLxNHfUov7ZpJzAG-arYtFCP_6np9GdmJanNzSDCRfQkwQwPOltefD5s-6SOBsndCuZcTPbDjFMJb61YEeRfbuc7boa9lqzpFI"/>
+</div>
+<div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent p-space-md flex flex-col text-on-primary">
+<span class="font-label-sm text-label-sm tracking-widest uppercase text-secondary-fixed">The Flagship Destination</span>
+<span class="font-headline-sm text-headline-sm font-light">Gandhi Bazar Main Road • Shivamogga</span>
+</div>
+</div>
+<!-- Overlapping Bridal Editorial Image -->
+<div class="col-span-4 self-end -ml-space-md lg:-ml-space-lg mb-space-lg z-20 shadow-2xl bg-surface p-space-xs group">
+<div class="aspect-[3/4] w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Editorial portrait of a regal South Indian bride adorned in an authentic rich crimson and pure gold handwoven Kanjivaram silk saree with traditional temple zari border, ornate gold temple jewelry, sitting inside a heritage royal courtyard with soft natural lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuACIDEsn1quSTXpPgyaAIxRQAZBpIPYkFD5EVodX3rEherEdmmzwIIriFhYWfrXgohPOSCAP5SIARXaqvi84ZjgxO5U6MypY13-bdxP-a2vgNjed2OLWcoV8fWO5fNwdi7_jZOmk1CotLCxpq8QRgVWIGI7vNC2zhJEMTnvroa-c0UMhstfHs55m-ig7zZF7jFpufnZI0u_5zss6gw7yqx0e8mTL4gzpVWS3FvA1cw"/>
+</div>
+<div class="p-space-xs bg-surface text-center">
+<p class="font-label-sm text-label-sm tracking-wider uppercase text-primary font-semibold">Bridal Heirloom 2025</p>
+<p class="font-body-sm text-body-sm text-secondary">Pure Mulberry Zari</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- =========================================================================
+       2. BRAND STORY & HERITAGE
+       ========================================================================= -->
+<section class="w-full bg-surface-container-low py-space-xl px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-5 flex flex-col">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary mb-space-xs">Textile Legacy • Shivamogga</span>
+<h2 class="font-display-lg text-display-lg-mobile md:text-headline-lg lg:text-display-lg text-primary font-normal leading-tight mb-space-md">
+          More Than A Collection.<br/>
+<span class="italic text-secondary">A Family Tradition.</span>
+</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-space-md">
+          Nestled opposite the revered Sri Kanika Parmeshwari Temple along the vibrant Gandhi Bazar Main Road, Pearl Collection has stood as an indelible cornerstone of family celebrations across Malnad and Central Karnataka.
+        </p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg">
+          We bring generations together beneath one roof—from grandmother's cherished Kanjivaram and Banarasi weaves, to bridal lehengas crafted for modern grand entrances, tailored bandhgalas for the groom, and festive silhouettes designed for youthful celebrations. Every thread honors provenance; every consultation is tailored with unhurried reverence.
+        </p>
+<!-- Proof Pillars -->
+<div class="grid grid-cols-3 gap-space-sm pt-space-sm">
+<div class="p-space-sm bg-surface-container shadow-sm flex flex-col">
+<span class="font-display-lg text-headline-lg text-primary font-normal">3</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Generations Served</span>
+</div>
+<div class="p-space-sm bg-surface-container shadow-sm flex flex-col">
+<span class="font-display-lg text-headline-lg text-primary font-normal">100%</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Pure Silk Certified</span>
+</div>
+<div class="p-space-sm bg-surface-container shadow-sm flex flex-col">
+<span class="font-display-lg text-headline-lg text-primary font-normal">1 Roof</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Entire Family Wardrobe</span>
+</div>
+</div>
+</div>
+<!-- Atmospheric Heritage Collage -->
+<div class="lg:col-span-7 grid grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-md">
+<div class="overflow-hidden bg-surface shadow-md">
+<img class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500" data-alt="Close up textile photograph of pure gold metallic zari threads on royal maroon silk handloom, displaying traditional peacock and lotus motifs with pristine artisanal craftsmanship." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCymWR8vHzqhAFuOdgkCJouleQHqVnFhavxnXynKG-ZCFmtoiqG9Ut9xejS3COzZgiB1VyNJOXGH3RLRbivJr-299oyNinXPdLq4CYiN4Kf1Rf8mT81xGMVnrel1Mus8TQzQ_Xa4tl2_q3Xa78qgOzyGUPfENhkAN2neBv3MzLqL7js6hUp5-y2I-alavz6gI7_r0NKFpSmfyCYyk9W1JJuxBWPNqw8aqCiPhK13BI"/>
+<div class="p-space-sm bg-surface">
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Masterloom Weaves</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Kanchipuram, Varanasi &amp; Arani</p>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-space-md pt-space-lg">
+<div class="overflow-hidden bg-surface shadow-md">
+<img class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500" data-alt="Elegant family portrait in an opulent living room wearing coordinated traditional Indian luxury occasion wear: parents in silk saree and kurta, children in regal festive attire, laughing together." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5SHa4H2z4MA6MtMJIXSO-m17Z3PMgeI2bcaXJq9hiDI2sKkHrgvJcp8BQQpwd9nqw8Zd8SSP7O0Vy9pr99s9bA9luC34etnQnSXIAPcX7d8y7ewRfW6SEtEX2A-KRPvq47xXp5Zcd_IWxpDGuRIWOdiL32RExhbuQLTC2kdaYYq7vpaz0JFABrTkMCntyO5Llh3dOx5sP7vZdRNJ1Cfc9HZ0tbF00zGGyVrfV5e4"/>
+<div class="p-space-sm bg-surface">
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Coordinated Elegance</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Harmonious tones for milestone rites</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- =========================================================================
+       3. SIX COLLECTION EXPERIENCES (Interactive & Visually Distinct)
+       ========================================================================= -->
+<section class="w-full bg-surface py-space-xl px-margin-mobile md:px-margin-tablet lg:px-margin" id="collections">
+<div class="max-w-[1440px] mx-auto">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary">Couture Categories</span>
+<h2 class="font-display-lg text-display-lg-mobile md:text-headline-lg lg:text-display-lg text-primary font-normal mt-space-xs">
+            Six Curated Realms. One Destination.
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md mt-space-sm md:mt-0">
+          Personal styling consultations available across all departments. Enquire directly via our dedicated WhatsApp stylist desk.
+        </p>
+</div>
+<!-- 6 Collection Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- 1. WOMEN'S COLLECTION -->
+<div class="flex flex-col bg-surface-container-lowest shadow-md group overflow-hidden transition-all duration-300 hover:shadow-xl">
+<div class="relative aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Full-length portrait of a South Indian woman wearing a regal emerald green and gold brocade silk saree with heavy zari border, intricate jewelry, posed gracefully against carved palace walls." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRdu25nhJHr3HPIRfH5ap7dpALvEg93R4iTQ01TagzScM0r4ofv1Sdzr4IoyFuirnpZYkULA8bKjlAI-M7tsM6YbztGrsQ_kmSbZCHW_VBCMOIOmloStUYjy6PT0rxU0z2M7G4y14xS10-_g94hRiMzoODLyRN4L4FU8tpW1WoEr0uPYczNvH6hEys-tTgW81uA_A86_IA8lrxWoWseZI3gCXx-4h8rx3SQVR7ojg"/>
+<span class="absolute top-space-sm right-space-sm bg-surface/95 px-space-sm py-space-xs font-label-sm text-label-sm uppercase tracking-wider text-primary shadow-sm">
+              Couture Silks
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between bg-surface-container-lowest">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">01 • Women's Couture</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-medium mt-1 mb-space-xs">Elegance, Woven Into Every Moment.</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                Heirloom Kanjivaram Silks, Royal Bridal Lehengas, Designer Anarkalis, Pure Tussar, and Tissue Organzas for wedding celebrations and religious ceremonies.
+              </p>
+</div>
+<a class="inline-flex items-center justify-between font-label-md text-label-md uppercase tracking-wider py-space-xs text-primary group-hover:text-secondary transition-colors" href="https://wa.me/916363330107?text=Hello%20Pearl%20Collection%2C%20I%20am%20interested%20in%20your%20Women's%20Collection.%20Could%20you%20please%20share%20more%20details%3F" rel="noopener noreferrer" target="_blank">
+<span>Enquire Women's Range</span>
+<span class="material-symbols-outlined text-[18px]">east</span>
+</a>
+</div>
+</div>
+<!-- 2. MEN'S COLLECTION -->
+<div class="flex flex-col bg-surface-container-lowest shadow-md group overflow-hidden transition-all duration-300 hover:shadow-xl">
+<div class="relative aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Handsome Indian groom dressed in an ivory hand-embroidered royal Sherwani with intricate resham and bullion zari work, wearing a ruby layered necklace and ceremonial safa turban." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgfo0dum3yy0h4vHO0cH1QDJ8SOt4gCsjVB88duspM7P1Qs9Nb8MdYO1g4saKCUM7EZIqFNzZXhwETsvGhsEXjYL2O8Yx6FL9-9Guu4768SuV12qxdouiW7pb4Ero0TRhTODl0ojetUeg5q0BNxggmrLz3R6L2XoncvYNUjrHWPN_xuacc_j5oWf_VO-WEhL0HjffGelJ2h4pY29pleMJf0i2r3J-k3DwG8RhFiDs"/>
+<span class="absolute top-space-sm right-space-sm bg-surface/95 px-space-sm py-space-xs font-label-sm text-label-sm uppercase tracking-wider text-primary shadow-sm">
+              Groom &amp; Bespoke
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between bg-surface-container-lowest">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">02 • Men's Occasionwear</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-medium mt-1 mb-space-xs">Made For Moments That Matter.</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                Regal Wedding Sherwanis, Jodhpuri Bandhgalas, Hand-tailored Tuxedos, Silk Kurta Pajama Sets, and ceremonial accessories crafted for dignitaries.
+              </p>
+</div>
+<a class="inline-flex items-center justify-between font-label-md text-label-md uppercase tracking-wider py-space-xs text-primary group-hover:text-secondary transition-colors" href="https://wa.me/916363330107?text=Hello%20Pearl%20Collection%2C%20I%20am%20interested%20in%20your%20Men's%20Collection.%20Could%20you%20please%20share%20more%20details%3F" rel="noopener noreferrer" target="_blank">
+<span>Enquire Men's Wardrobe</span>
+<span class="material-symbols-outlined text-[18px]">east</span>
+</a>
+</div>
+</div>
+<!-- 3. KIDS' COLLECTION -->
+<div class="flex flex-col bg-surface-container-lowest shadow-md group overflow-hidden transition-all duration-300 hover:shadow-xl">
+<div class="relative aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Charming photograph of young Indian girl and boy dressed in festive miniature Indian wear: young girl in traditional South Indian pure silk pattu pavadai lehenga, young boy in silk dhoti kurta set, smiling in warm festive studio setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-VTUDmnX_zvX2Fylgjh0fdvetGjMqMkwFQif3I7V6RNhe1BlfKS0imVIIuJHgUle1-L9c_d8bZ02RrcMdhPHLo2t7My-Qwr4zAPh2maMgeoHFjvP_dc8RnQCZ2rPwDxBWTFZyzuFSM0mqZoI9BI1X-B1hBGIVLVpTXDQx8J-UclN4xocicRxGySobAltqEWOCXPCz2syP5IHygeFQVu7gYrN6LCwwyCVTixsfIIo"/>
+<span class="absolute top-space-sm right-space-sm bg-surface/95 px-space-sm py-space-xs font-label-sm text-label-sm uppercase tracking-wider text-primary shadow-sm">
+              Pure Silk Juniors
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between bg-surface-container-lowest">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">03 • Kids' Celebration</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-medium mt-1 mb-space-xs">Little Styles. Big Memories.</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                Pure Pattu Pavadais for girls, Miniature Silk Dhoti Sets, festive embroidered frocks, and comfortable boy's kurta waistcoats for joyful milestones.
+              </p>
+</div>
+<a class="inline-flex items-center justify-between font-label-md text-label-md uppercase tracking-wider py-space-xs text-primary group-hover:text-secondary transition-colors" href="https://wa.me/916363330107?text=Hello%20Pearl%20Collection%2C%20I%20am%20interested%20in%20your%20Kids'%20Collection.%20Could%20you%20please%20share%20more%20details%3F" rel="noopener noreferrer" target="_blank">
+<span>Enquire Kids' Styles</span>
+<span class="material-symbols-outlined text-[18px]">east</span>
+</a>
+</div>
+</div>
+<!-- 4. WEDDING ATELIER -->
+<div class="flex flex-col bg-surface-container-lowest shadow-md group overflow-hidden transition-all duration-300 hover:shadow-xl">
+<div class="relative aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Bride and groom standing gracefully together during a South Indian wedding ceremony, bride in royal vermilion silk saree and groom in matching raw silk angavastram and dhoti set with golden borders." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZhtK_9O5DpCl5N_-vrUrdfTnbi0oiv9SpaS8lJNbJpyfOzQEk1LUyZiBvm_pIYCdZljc-3OJ7N6B_IL5lnighu-0no8sERO-9HZyskWJK4ja7AIsjfFZO2l2_GO5tPnNt8aVG7Bd71chtLks-SF7aEyP8ELIfY20gKJHcFZANot5qNxkSlzQ2LMsUrYVblzvsE4MN9908183EApWC_VbthcRVTgHm9PGMHRzQfnA"/>
+<span class="absolute top-space-sm right-space-sm bg-surface/95 px-space-sm py-space-xs font-label-sm text-label-sm uppercase tracking-wider text-primary shadow-sm">
+              Bridal Trousseau
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between bg-surface-container-lowest">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">04 • Wedding Atelier</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-medium mt-1 mb-space-xs">Complete Trousseau Advisory.</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                Private bridal suites, dedicated draper consultations, customized veil drapes, and curated wardrobes spanning Muhurtham, Sangeet, and Reception.
+              </p>
+</div>
+<a class="inline-flex items-center justify-between font-label-md text-label-md uppercase tracking-wider py-space-xs text-primary group-hover:text-secondary transition-colors" href="https://wa.me/916363330107?text=Hello%20Pearl%20Collection%2C%20I%20am%20interested%20in%20your%20Wedding%20Atelier.%20Could%20you%20please%20share%20more%20details%3F" rel="noopener noreferrer" target="_blank">
+<span>Book Bridal Suite</span>
+<span class="material-symbols-outlined text-[18px]">east</span>
+</a>
+</div>
+</div>
+<!-- 5. FESTIVE EDIT -->
+<div class="flex flex-col bg-surface-container-lowest shadow-md group overflow-hidden transition-all duration-300 hover:shadow-xl">
+<div class="relative aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Festive Indian celebration scene with models wearing vibrant mustard yellow, rani pink, and royal violet handwoven ethnic wear surrounded by brass marigold urlis and soft festive lamps." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNGUjA8zCmxlW0rceiv3f9LnpgBx0BJJ63_WtquHUyOJbmtDB-xNvSs-iBaT7pX1GylWuJtA7Nwxrgz1HUufo-gAeiDIQ6e0UIFO7xgCRuwirUDDUpXfbmV10CusV5e6TKSTZ3Mb0m31Pmu_jxWEEwBPlicNLl__KdDedfLXmx_ao7Z1DYCWufl7VfKNKskH3UU3Q9yX8TbjguxDTUrDKc532wrOfesNsDPtDmfso"/>
+<span class="absolute top-space-sm right-space-sm bg-surface/95 px-space-sm py-space-xs font-label-sm text-label-sm uppercase tracking-wider text-primary shadow-sm">
+              Ugadi • Dasara • Diwali
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between bg-surface-container-lowest">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">05 • Festive Edit</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-medium mt-1 mb-space-xs">Vibrant Auspicious Moments.</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                Luminous colorways designed for Karnataka's rich calendar: Ugadi silk sets, Dasara royal drapery, Diwali ensembles, and Varamahalakshmi specials.
+              </p>
+</div>
+<a class="inline-flex items-center justify-between font-label-md text-label-md uppercase tracking-wider py-space-xs text-primary group-hover:text-secondary transition-colors" href="https://wa.me/916363330107?text=Hello%20Pearl%20Collection%2C%20I%20am%20interested%20in%20your%20Festive%20Edit.%20Could%20you%20please%20share%20more%20details%3F" rel="noopener noreferrer" target="_blank">
+<span>Explore Festive Edit</span>
+<span class="material-symbols-outlined text-[18px]">east</span>
+</a>
+</div>
+</div>
+<!-- 6. FAMILY COORDINATES -->
+<div class="flex flex-col bg-surface-container-lowest shadow-md group overflow-hidden transition-all duration-300 hover:shadow-xl">
+<div class="relative aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Harmonious multi-generational Indian family dressed in coordinated tones of champagne gold and pastel blush pink silks, standing affectionately in an elegant heritage setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgE2fpcMK6LfE_wrUJcui2ntanUja3A8Dbsy9jt3wxJqKoPCPQonyBAam34EYYc9EjwezMIz1BIdLoo5nbpJdmXyioO_U_ixsQlw8KXGoROa7AIGtIqz5p1dbn8dCkyVHZ8g5bMsoBLetV8CPz89GAIiAZSGAJNrEDka0aB-i7379kUdub1opYmf-fS_X9e4DyKgKMFixXt1-S7z5a7EJk4gD1QF6tLs4hbc-ytfQ"/>
+<span class="absolute top-space-sm right-space-sm bg-surface/95 px-space-sm py-space-xs font-label-sm text-label-sm uppercase tracking-wider text-primary shadow-sm">
+              Matched Palettes
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between bg-surface-container-lowest">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">06 • Family Coordinates</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-medium mt-1 mb-space-xs">Unified Grandeur for Families.</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                Complementary color-matched ensembles for parents, siblings, bride, groom, and extended family ensuring picture-perfect harmony in wedding albums.
+              </p>
+</div>
+<a class="inline-flex items-center justify-between font-label-md text-label-md uppercase tracking-wider py-space-xs text-primary group-hover:text-secondary transition-colors" href="https://wa.me/916363330107?text=Hello%20Pearl%20Collection%2C%20I%20am%20interested%20in%20your%20Family%20Coordinates.%20Could%20you%20please%20share%20more%20details%3F" rel="noopener noreferrer" target="_blank">
+<span>Consult Family Palette</span>
+<span class="material-symbols-outlined text-[18px]">east</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- =========================================================================
+       4. CURATED PRODUCT SHOWCASE & DISCOVERY (With Interactive Filters)
+       ========================================================================= -->
+<section class="w-full bg-surface-container py-space-xl px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="max-w-[1440px] mx-auto">
+<!-- Headline & Explainer -->
+<div class="text-center max-w-2xl mx-auto mb-space-lg">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary">Curated Sample Gallery</span>
+<h2 class="font-display-lg text-display-lg-mobile md:text-headline-lg lg:text-display-lg text-primary font-normal mt-space-xs mb-space-sm">
+          Masterpieces On Display
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Select pieces from our in-store archives. Visit our Gandhi Bazar showroom or connect on WhatsApp for live video viewings and current stock availability.
+        </p>
+</div>
+<!-- Filter Tabs Container -->
+<div class="flex flex-wrap items-center justify-center gap-space-xs mb-space-lg" id="productFilterButtons">
+<button class="filter-btn active px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider transition-all duration-200 bg-primary text-on-primary" onclick="filterProducts('all')">
+          All Selections
+        </button>
+<button class="filter-btn px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider transition-all duration-200 bg-surface-container-high text-on-surface hover:bg-surface-container-highest" onclick="filterProducts('bridal')">
+          Bridal &amp; Sarees
+        </button>
+<button class="filter-btn px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider transition-all duration-200 bg-surface-container-high text-on-surface hover:bg-surface-container-highest" onclick="filterProducts('mens')">
+          Men's Couture
+        </button>
+<button class="filter-btn px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider transition-all duration-200 bg-surface-container-high text-on-surface hover:bg-surface-container-highest" onclick="filterProducts('kids')">
+          Kids' Occasion
+        </button>
+<button class="filter-btn px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider transition-all duration-200 bg-surface-container-high text-on-surface hover:bg-surface-container-highest" onclick="filterProducts('festive')">
+          Festive Essentials
+        </button>
+</div>
+<!-- Products Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter" id="productsGrid">
+<!-- Product 1: Kanjivaram Bridal -->
+<div class="product-card flex flex-col bg-surface-container-lowest shadow-md overflow-hidden" data-category="bridal">
+<div class="relative aspect-[3/4] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Exquisite pure crimson red Kanchipuram silk saree with authentic gold zari Korvai borders, peacock motifs, folded gracefully on royal silk cushions." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXJIJFjFt484xQ5VB9nL_JMsRoGG8J9jrPHcj5YjtHxXOlspgvoYtfZdbdUwJSrN9-ysU1XfzRhg0xHkbW78K5AQeNKGNQpKob4kUPAAyheAZuQ3xlelsvDrnidoTTVuTW8_8wjMfq2ft3BGiPR3sphfheG7RbrQFrmAsGW6D1En_9KAn-VzrLb22VoWwQGwYM-z9TcKaK4Iu5RVryS7us-Vg5Rfmh2_-m2Z1qmSE"/>
+<span class="absolute top-space-xs left-space-xs bg-surface-container-lowest/90 px-space-xs py-1 font-label-sm text-label-sm uppercase tracking-wider text-primary">
+              Pure Mulberry Silk
+            </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Bridal Weave</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">PC-KAN-9021</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium mb-space-xs">Royal Crimson Korvai Kanjivaram</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                Handcrafted over 45 days in Tamil Nadu with certified gold zari temple borders and heavy brocade pallu.
+              </p>
+</div>
+<a class="inline-flex items-center justify-center gap-space-xs font-label-md text-label-md uppercase tracking-wider py-space-xs px-space-sm bg-primary text-on-primary hover:bg-primary-container transition-colors" href="https://wa.me/916363330107?text=Hello%20Pearl%20Collection,%20I%20am%20inquiring%20about%20the%20Royal%20Crimson%20Korvai%20Kanjivaram%20(PC-KAN-9021)." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+<span>Enquire on WhatsApp</span>
+</a>
+</div>
+</div>
+<!-- Product 2: Imperial Sherwani -->
+<div class="product-card flex flex-col bg-surface-container-lowest shadow-md overflow-hidden" data-category="mens">
+<div class="relative aspect-[3/4] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Ivory raw silk groom sherwani with intricate zardozi wire embroidery on mandarin collar and cuffs, paired with handcrafted silk stole." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDa48ZixAgElRzqAVm2IbGJCGdptAvSfFU7DH59A6aTXjXBhXI-wFrDScAPgtnW7_eOaA6sIB0HWPvgl3XbRFGuzbDdN3ovF1QGkPJoMhzhD2GePAKLYcDJqjA8MTPSZShU7zjnYNGHvcQrxydne2xyhoaJyBuz1pcm7sQVlAAEBYyfBTt1rOn3TpzAeO_r9XQmy_u_XA5Tbk67na_lASvTmLwSp9sawYZ2tMXmObc"/>
+<span class="absolute top-space-xs left-space-xs bg-surface-container-lowest/90 px-space-xs py-1 font-label-sm text-label-sm uppercase tracking-wider text-primary">
+              Hand Embroidered
+            </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Groom Atelier</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">PC-SHER-4402</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium mb-space-xs">The Ivory Imperial Sherwani</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                Tailored raw tussar silk featuring delicate pearls, French knots, and bespoke matching ceremonial stole.
+              </p>
+</div>
+<a class="inline-flex items-center justify-center gap-space-xs font-label-md text-label-md uppercase tracking-wider py-space-xs px-space-sm bg-primary text-on-primary hover:bg-primary-container transition-colors" href="https://wa.me/916363330107?text=Hello%20Pearl%20Collection,%20I%20am%20inquiring%20about%20the%20Ivory%20Imperial%20Sherwani%20(PC-SHER-4402)." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+<span>Enquire on WhatsApp</span>
+</a>
+</div>
+</div>
+<!-- Product 3: Pure Silk Pattu Pavadai -->
+<div class="product-card flex flex-col bg-surface-container-lowest shadow-md overflow-hidden" data-category="kids">
+<div class="relative aspect-[3/4] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Festive girl's magenta and mustard South Indian pure silk pattu pavadai lehenga with traditional zari kalas border and tailored puff-sleeve choli." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxLWtJHkSiMDBKcl4EeSfuxpViGwMIYxlzz91NW3yQV15Zn70_zI9h1N5ejWskKWp8nBza7btikd8l_4rF4RPpwFv-E2pFMAm6ZNuYtGr5uvV9KTqMgDdhXSLA19Eg3W-UoRM0EsX69xJrfpSzBLM4SBV9glZREmTM0enXK56ymRpQrj1iF89nMgZh23P2wm7bjbskH7goGp1XemZ_P227byi39RfflW4j7GT54Kg"/>
+<span class="absolute top-space-xs left-space-xs bg-surface-container-lowest/90 px-space-xs py-1 font-label-sm text-label-sm uppercase tracking-wider text-primary">
+              100% Pure Pattu
+            </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Kids' Heritage</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">PC-KID-1108</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium mb-space-xs">Auspicious Magenta Pavadai</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                Soft inner cotton lining with authentic heavy zari borders designed specifically for children's festive comfort.
+              </p>
+</div>
+<a class="inline-flex items-center justify-center gap-space-xs font-label-md text-label-md uppercase tracking-wider py-space-xs px-space-sm bg-primary text-on-primary hover:bg-primary-container transition-colors" href="https://wa.me/916363330107?text=Hello%20Pearl%20Collection,%20I%20am%20inquiring%20about%20the%20Auspicious%20Magenta%20Pavadai%20(PC-KID-1108)." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+<span>Enquire on WhatsApp</span>
+</a>
+</div>
+</div>
+<!-- Product 4: Banarasi Shikargah -->
+<div class="product-card flex flex-col bg-surface-container-lowest shadow-md overflow-hidden" data-category="bridal">
+<div class="relative aspect-[3/4] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Deep royal violet Banarasi Katan silk saree woven with antique gold Kadwa zari animal and flora motifs, glowing under warm showroom spotlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfuiQRaaUUtA--vjfowzqFYIL8I3EGP6v7cTjefplh53uC0L5IT1HUYhvFm9WcV6NkJyU3yJujGXaxvQhvnszHbDuEv6ZelKPDqYvDZrRXb6DHYsOPVi9da8dkyj0UKhetnh_bJDbkkvpGytYsrhduKxU4Nx3ogi7nCAwiQeErs51IRmg8I5pkMb8_SSKedyfERHM0wxNzeDhatjM5gttHqpCuQQVSIaI1PBgTiIQ"/>
+<span class="absolute top-space-xs left-space-xs bg-surface-container-lowest/90 px-space-xs py-1 font-label-sm text-label-sm uppercase tracking-wider text-primary">
+              Varanasi Katan
+            </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Heritage Silk</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">PC-BAN-6045</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium mb-space-xs">Royal Jamdani Shikargah Banarasi</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                Intricately hand-loomed in Varanasi using antique gold zari threads across a midnight violet silk foundation.
+              </p>
+</div>
+<a class="inline-flex items-center justify-center gap-space-xs font-label-md text-label-md uppercase tracking-wider py-space-xs px-space-sm bg-primary text-on-primary hover:bg-primary-container transition-colors" href="https://wa.me/916363330107?text=Hello%20Pearl%20Collection,%20I%20am%20inquiring%20about%20the%20Royal%20Jamdani%20Banarasi%20(PC-BAN-6045)." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+<span>Enquire on WhatsApp</span>
+</a>
+</div>
+</div>
+<!-- Product 5: Royal Jodhpuri Suit -->
+<div class="product-card flex flex-col bg-surface-container-lowest shadow-md overflow-hidden" data-category="mens">
+<div class="relative aspect-[3/4] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Midnight navy blue wool-silk blend Jodhpuri bandhgala suit on tailor's mannequin with handcrafted embossed brass buttons and pocket square." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtIBsORJQzVvkubRTNpHS8lOaNXs94wJtKqIkNjPeytzfNBh0wiyihtk2lfCcwNsiHvPvn6u5q-P6aCfrs5xtlqAmeDPdK1xN35Slepp51olqeWc2LCbAEnjvT8C3jcwZpQitOED_qBADRUfH0wkbjhRK2cKextTz01HZZypd1EZ1FJy9Xg1Er8C3J11k2KmY06Xb3Gkss2IsD7yT_J176QSqs5AnTcrrJEUKCkEM"/>
+<span class="absolute top-space-xs left-space-xs bg-surface-container-lowest/90 px-space-xs py-1 font-label-sm text-label-sm uppercase tracking-wider text-primary">
+              Bespoke Fit
+            </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Evening Classic</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">PC-JOD-3319</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium mb-space-xs">Midnight Sapphire Bandhgala</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                Italian wool-silk weave structured with hand-finished armholes and custom gold monogram buttons.
+              </p>
+</div>
+<a class="inline-flex items-center justify-center gap-space-xs font-label-md text-label-md uppercase tracking-wider py-space-xs px-space-sm bg-primary text-on-primary hover:bg-primary-container transition-colors" href="https://wa.me/916363330107?text=Hello%20Pearl%20Collection,%20I%20am%20inquiring%20about%20the%20Midnight%20Sapphire%20Bandhgala%20(PC-JOD-3319)." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+<span>Enquire on WhatsApp</span>
+</a>
+</div>
+</div>
+<!-- Product 6: Festive Dhoti & Kurta -->
+<div class="product-card flex flex-col bg-surface-container-lowest shadow-md overflow-hidden" data-category="festive">
+<div class="relative aspect-[3/4] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Warm saffron and cream festive silk kurta set paired with pure mulberry silk panche dhoti and zari angavastram for Karnataka festivals." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7R3WFlS_auEwd0ZHDD57UD-Slgi0QQq--Avwx2RU_O0xmzrbXTsnQTnDrMuyuoocciiQGUmDfBtK7mGk_REw3PNJGYbddj_Dzw_fZVXZ9veH6qwa3Cmt8dCTfP8QHXxP6cDuEmmhdpJaWO1x-sIFX2eAhe0rWODiGTa7IImv3h9-8qtevhXqozri2LFsECpXCFbmW30_1yfsc4IWCB5qR941PWL0vrsyMl8mCdO0"/>
+<span class="absolute top-space-xs left-space-xs bg-surface-container-lowest/90 px-space-xs py-1 font-label-sm text-label-sm uppercase tracking-wider text-primary">
+              Festive Essential
+            </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Traditional Panche</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">PC-PAN-5120</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium mb-space-xs">Saffron Silk Kurta &amp; Panche Set</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                Pure South Indian handspun silk designed for temple visits, Griha Pravesha, and festive family dinners.
+              </p>
+</div>
+<a class="inline-flex items-center justify-center gap-space-xs font-label-md text-label-md uppercase tracking-wider py-space-xs px-space-sm bg-primary text-on-primary hover:bg-primary-container transition-colors" href="https://wa.me/916363330107?text=Hello%20Pearl%20Collection,%20I%20am%20inquiring%20about%20the%20Saffron%20Silk%20Kurta%20Set%20(PC-PAN-5120)." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+<span>Enquire on WhatsApp</span>
+</a>
+</div>
+</div>
+</div>
+<div class="mt-space-lg text-center">
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+          *Curated Sample Gallery — Visit showroom or message concierge for live stock availability, custom color matchings, and sizing.
+        </p>
+</div>
+</div>
+</section>
+<!-- =========================================================================
+       5. THE SHOWROOM EXPERIENCE & REAL PHOTO ARCHITECTURE
+       ========================================================================= -->
+<section class="w-full bg-surface py-space-xl px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="max-w-[1440px] mx-auto">
+<div class="max-w-2xl mb-space-lg">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary">The Gandhi Bazar Flagship</span>
+<h2 class="font-display-lg text-display-lg-mobile md:text-headline-lg lg:text-display-lg text-primary font-normal mt-space-xs">
+          A Destination Designed for Celebrations
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Spanning multiple expansive floors on Gandhi Bazar Main Road, every salon has been purposefully designed to offer families privacy, spacious seating, and attentive personalized assistance.
+        </p>
+</div>
+<!-- Architectural Showcase Bento -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md">
+<!-- Large Hero Card: Entrance & Grand Facade -->
+<div class="md:col-span-8 bg-surface-container-low overflow-hidden shadow-md flex flex-col group">
+<div class="aspect-[16/9] w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Grand multi-level showroom entrance of Pearl Collection Gandhi Bazar Shivamogga, featuring high glass facade, dramatic velvet royal drapes, carved teak doorways, polished Italian marble flooring, and crystal chandeliers." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjqPSq_9WZwnt2c5uAwXxWMEAKh5hMxg8RgyqaZi5xUUb91XG-Ikv8mvFgYsCQMS5iaiaYHHU3SddW_LrBlacI30D6hNrLlCO_PzyrQkCICMZz9wUDDEOmhrervuDP0iHdWDnteMytxYNkS8fmg0GEwnNEEJZ84PYT-AVAaSsVF4JMrL424klrmpFXqYWInLyq1JfIyAvRj2XVqn6VA3cbuW7TpITvOva_FODwAJo"/>
+</div>
+<div class="p-space-md bg-surface-container-low flex items-center justify-between">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium">Grand Storefront &amp; Entrance</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Opposite Kanika Parmeshwari Temple • Gandhi Bazar</p>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary bg-surface px-space-xs py-1">Ground Floor</span>
+</div>
+</div>
+<!-- Right Side: Women's Saree Sanctum -->
+<div class="md:col-span-4 bg-surface-container-low overflow-hidden shadow-md flex flex-col group">
+<div class="aspect-[4/3] w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Spacious luxury saree salon inside Pearl Collection Shivamogga with deep cushioned diwan seating, hundreds of colorful pure silk sarees organized in back-lit teak cubicles, warm incandescent chandeliers." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsufLaeCv42IP9KzLhHf7Hh_YwRz0-uWoeAA2-Nu5KOeiMU64xYAQuofe_Q5kV51uTEX1ICThd1H0bVpoZqVW8_IsJcAG-3WoBgkbqhb8DmAuQzTdloFRUFVncX0QKkX1voPdFwoS7Dgx9uhXQDkjIktd87gUqZ9kM-vdtnnKQNsxwMTdy98RsHYPVXOFA85KA8BMUdkrwIce3GaWODxrt7lZMLfMUISpCtbCoS10"/>
+</div>
+<div class="p-space-md bg-surface-container-low flex items-center justify-between">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium">Women's Saree Sanctum</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Kanjivaram, Banarasi &amp; Chanderi</p>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary bg-surface px-space-xs py-1">Level 1</span>
+</div>
+</div>
+<!-- Bottom Row 3 Cards -->
+<!-- Men's Wardrobe -->
+<div class="md:col-span-4 bg-surface-container-low overflow-hidden shadow-md flex flex-col group">
+<div class="aspect-[4/3] w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Bespoke men's couture department with dark wood paneling, tailored mannequin displays of sherwanis and suits, plush leather seating, and fitting mirrors." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB020FVhuFHVgjHyYlcvwR2BW6q46XFdeo_2kdeQxjoZ5prWZOBR0HRQkKk3BMoGcslvdfndGEWPXKAR6ZiFoOqnjbR57pZW88o4i3KVcaGnEcc9GhYm_joqldxDqaGRvkbRd6FDzYViN_6zekTN3EXeA2oAq8PVmd1JPvTjSgnEdd1z-Bu8lItiNkSFj_-GG7y6bitNFYHLo7VuS4V8gmKr239k3uGNz13KC2k-W8"/>
+</div>
+<div class="p-space-md bg-surface-container-low flex items-center justify-between">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium">Men's Royal Wardrobe</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sherwanis, Suits &amp; Kurtas</p>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary bg-surface px-space-xs py-1">Level 2</span>
+</div>
+</div>
+<!-- Kids' Celebration Studio -->
+<div class="md:col-span-4 bg-surface-container-low overflow-hidden shadow-md flex flex-col group">
+<div class="aspect-[4/3] w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Bright and joyful children's festive clothing salon with miniature ethnic wear racks, colorful pattu pavadais, comfortable family seating, and playful accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCKQbotlQrxrpgkXNHoVLUUwMuu3a9IsrRomBMxoGUdjvP-xm4-E76PjleJteC40iYvyR7UAqUL7FX_ilK_HP9AQCpkLbGdcDWGWGt6BgbWQx6U312UQjA0Esy0iVEGAxzZD4Vn2Y36ZC6mHVZl2SutdHu3mnvXWNDm4InNnYd_Nf0274QGRoFRKRUOJxJvtn7VTHwiFXm4JXBYHIBC4f7LZ8bsFNV0Re8gUYlgxQ"/>
+</div>
+<div class="p-space-md bg-surface-container-low flex items-center justify-between">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium">Kids' Celebration Studio</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Festive Weaves for Boys &amp; Girls</p>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary bg-surface px-space-xs py-1">Level 2</span>
+</div>
+</div>
+<!-- Bridal Fitting Lounge -->
+<div class="md:col-span-4 bg-surface-container-low overflow-hidden shadow-md flex flex-col group">
+<div class="aspect-[4/3] w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Private bridal consultation suite with tri-fold mirrors, 360-degree daylight balanced lighting, silk carpet, and velvet armchairs for wedding families." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBygSHHr24scycVKPyBkk3boBeqfMlX7s-pbP9vRXO3PywlJB2iG_tq4Bxl6uVECFLCd9eLGBtLZ8F-P4QtSxd9dr6F2m1tI4wHnxuLuWNfzdmfQ_y6o5AUrO8jTfzCYo1Jbs7He1WrfRL_kN-z8u_50svRFTfrGqnq4as6P6Rjjr-74Ziyk3R4sA-Oe2g381fqN5MnIxSByXisKNtge_53pWonkoGELJZZI6sF7jk"/>
+</div>
+<div class="p-space-md bg-surface-container-low flex items-center justify-between">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium">Bridal Fitting Lounge</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Private Trousseau Consultations</p>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary bg-surface px-space-xs py-1">VIP Suite</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- =========================================================================
+       6. CUSTOMER REPUTATION & VERIFIED TRUST
+       ========================================================================= -->
+<section class="w-full bg-surface-container-low py-space-xl px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="max-w-[1440px] mx-auto">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary">Verified Sentiments</span>
+<h2 class="font-display-lg text-display-lg-mobile md:text-headline-lg lg:text-display-lg text-primary font-normal mt-space-xs">
+          Trusted for Every Occasion.
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Generations of Malnad and Shivamogga families celebrate their most memorable chapters with us.
+        </p>
+</div>
+<!-- Testimonial Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Review 1 -->
+<div class="bg-surface p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-secondary mb-space-sm">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic mb-space-md">
+              “For my daughter's wedding, we wanted authentic Kanjivaram silks without traveling to Bengaluru or Chennai. Pearl Collection in Gandhi Bazar had an unmatched selection, and their staff draped every single saree with so much patience for our family.”
+            </p>
+</div>
+<div class="pt-space-sm border-t border-outline-variant/30">
+<p class="font-headline-sm text-headline-sm text-primary font-medium">Smt. Nagaveni Rao</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Bridal Family • Vinoba Nagara, Shivamogga</p>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-surface p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-secondary mb-space-sm">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic mb-space-md">
+              “Finding high quality sherwanis with modern cuts in Shivamogga used to be difficult. Pearl Collection has royal sherwanis and matching family coordinates that completely surprised us. The private fitting suite felt truly world-class.”
+            </p>
+</div>
+<div class="pt-space-sm border-t border-outline-variant/30">
+<p class="font-headline-sm text-headline-sm text-primary font-medium">Prajwal Hegde</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Groom • Sagar Road, Shivamogga</p>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-surface p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-secondary mb-space-sm">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic mb-space-md">
+              “The biggest relief is having kids wear, men's wear, and grand bridal wear in one place. Located right next to the temple in Gandhi Bazar, it makes festive shopping effortless for three generations together.”
+            </p>
+</div>
+<div class="pt-space-sm border-t border-outline-variant/30">
+<p class="font-headline-sm text-headline-sm text-primary font-medium">Anand &amp; Rekha Patil</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Annual Festive Shoppers • Shivamogga</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- =========================================================================
+       7. SHOWROOM LOCATION & DIRECT CONCIERGE
+       ========================================================================= -->
+<section class="w-full bg-surface py-space-xl px-margin-mobile md:px-margin-tablet lg:px-margin" id="showroom-location">
+<div class="max-w-[1440px] mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
+<!-- Showroom Information & Interactive Concierge -->
+<div class="lg:col-span-5 flex flex-col justify-between bg-surface-container-low p-space-lg md:p-space-xl shadow-md">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary mb-space-xs block">Visit Our Showroom</span>
+<h2 class="font-display-lg text-display-lg-mobile md:text-headline-lg lg:text-display-lg text-primary font-normal leading-tight mb-space-md">
+              Gandhi Bazar Main Road, Shivamogga
+            </h2>
+<div class="space-y-space-md mb-space-lg">
+<!-- Address Details -->
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium">Address</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                    Opposite Kanika Parmeshwari Temple,<br/>
+                    Near Hira Cut Piece, Gandhi Bazar Main Road,<br/>
+                    Shivamogga, Karnataka – 577202
+                  </p>
+</div>
+</div>
+<!-- Timings -->
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium">Showroom Hours</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                    10:00 AM – 9:30 PM<br/>
+                    Open all 7 days of the week
+                  </p>
+</div>
+</div>
+<!-- Telephone Concierge -->
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[20px]">call</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium">Phone &amp; Styling Inquiries</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+<a class="hover:text-primary font-semibold underline text-primary" href="tel:+916363330107">+91 63633 30107</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Direct WhatsApp Concierge CTA Card -->
+<div class="bg-[#244e3d] text-surface-container-lowest p-space-md shadow-md mt-space-md">
+<div class="flex items-center gap-space-xs mb-space-xs">
+<span class="material-symbols-outlined text-[24px]">chat</span>
+<span class="font-label-md text-label-md uppercase tracking-wider">Live WhatsApp Concierge</span>
+</div>
+<p class="font-body-sm text-body-sm text-surface-container-low mb-space-md">
+              Connect directly with our master drapers for private bridal appointments, stock verifications, or video viewings.
+            </p>
+<a class="inline-flex items-center justify-center w-full py-space-xs px-space-md bg-surface-container-lowest text-[#244e3d] font-label-md text-label-md uppercase tracking-wider hover:bg-surface-container transition-colors" href="https://wa.me/916363330107?text=Hello%20Pearl%20Collection,%20I%20would%20like%20to%20plan%20a%20visit%20to%20your%20Gandhi%20Bazar%20showroom." rel="noopener noreferrer" target="_blank">
+<span>Start Instant Chat</span>
+<span class="material-symbols-outlined ml-space-xs text-[18px]">north_east</span>
+</a>
+</div>
+</div>
+<!-- Google Maps & Visual Orientation -->
+<div class="lg:col-span-7 flex flex-col bg-surface-container-low shadow-md overflow-hidden">
+<!-- Static/Embed Interactive Map Container -->
+<div class="relative w-full h-[400px] lg:h-[500px] bg-surface-container-high overflow-hidden" data-location="Gandhi Bazar Main Road, Shivamogga, Karnataka 577202" style="">
+<!-- Simulated Architectural Map Rendering -->
+<div class="w-full h-full bg-cover bg-center" data-alt="High quality aerial cartographic and street map rendering of Gandhi Bazar Main Road Shivamogga Karnataka showcasing landmarks including Kanika Parmeshwari Temple and Pearl Collection luxury family showroom pin." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDBqZB1qn6cobSSIijtFYScBBbmevEsyCBAMssFR0EcSYnlNjAu3oBlkrhP_cgTaxpO3CdxnWe2HXa_J7qHFElVY-aHm8EX7jYCcwCAUNzIgJa-ljgHOUF_sQcpU-7DzF4gGfGCG4TCGFcWDP9EQJir3rdLswZ3kWGOavQinlfCMrMm0EPPvL9tZjNPgEEcG5XYuhpOj10pyOWRGGtZnV2HNmRrUHW1k8aK_4CJQ1g')"></div>
+<!-- Map Overlay Card -->
+<div class="absolute bottom-space-md left-space-md right-space-md sm:right-auto sm:max-w-md bg-surface/95 backdrop-blur-md p-space-md shadow-xl border border-secondary/20">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px] shrink-0 mt-0.5">pin_drop</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold">Pearl Collection</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-xs">
+                    Opp. Kanika Parmeshwari Temple, Gandhi Bazar Main Road, Shivamogga
+                  </p>
+<a class="inline-flex items-center gap-1 font-label-sm text-label-sm uppercase tracking-wider text-primary hover:text-secondary underline" href="https://maps.google.com/?q=Gandhi+Bazar+Shivamogga+Karnataka" rel="noopener noreferrer" target="_blank">
+<span>Open in Google Maps</span>
+<span class="material-symbols-outlined text-[14px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Travel Landmarks Guidance -->
+<div class="p-space-md bg-surface grid grid-cols-1 sm:grid-cols-3 gap-space-sm text-on-surface">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Landmark 1</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Directly opposite Sri Kanika Parmeshwari Temple</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Landmark 2</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Near Hira Cut Piece, Center of Gandhi Bazar</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Transit</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">10 mins from Shivamogga Town Railway Station</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- =========================================================================
+       8. FLOATING ATELIER CONCIERGE BANNER
+       ========================================================================= -->
+<div class="w-full bg-primary text-on-primary py-space-sm px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="max-w-[1440px] mx-auto flex flex-col md:flex-row items-center justify-between gap-space-sm text-center md:text-left">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">verified</span>
+<p class="font-body-sm text-body-sm text-surface-container-high">
+          Planning an upcoming wedding or family celebration? Reserve an uninterrupted private trousseau suite.
+        </p>
+</div>
+<div class="flex items-center gap-space-sm shrink-0">
+<a class="font-label-sm text-label-sm uppercase tracking-wider px-space-md py-space-xs bg-[#244e3d] text-surface-container-lowest hover:bg-[#1b3b2e] transition-colors" href="https://wa.me/916363330107?text=Hello%20Pearl%20Collection,%20I%20would%20like%20to%20reserve%20a%20private%20bridal%20suite%20for%20our%20family%20wedding%20shopping." rel="noopener noreferrer" target="_blank">
+          Reserve Suite on WhatsApp
+        </a>
+</div>
+</div>
+</div>
+<!-- Micro-interaction Script for Filter Tabs -->
+<script>
+    function filterProducts(category) {
+      const cards = document.querySelectorAll('.product-card');
+      const buttons = document.querySelectorAll('#productFilterButtons .filter-btn');
+
+      buttons.forEach(btn => {
+        btn.classList.remove('bg-primary', 'text-on-primary');
+        btn.classList.add('bg-surface-container-high', 'text-on-surface');
+      });
+
+      const activeBtn = event.currentTarget;
+      if (activeBtn) {
+        activeBtn.classList.remove('bg-surface-container-high', 'text-on-surface');
+        activeBtn.classList.add('bg-primary', 'text-on-primary');
+      }
+
+      cards.forEach(card => {
+        if (category === 'all' || card.getAttribute('data-category') === category) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low"><div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter"><div class="lg:col-span-4 flex flex-col"><div class="flex items-center gap-space-sm mb-space-sm"><img alt="Pearl Collection Luxury Monogram" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvIpvJ4MnrPT3TabcUDUo-JRjiBA7noheity0GyAuczFOxEV5ah0GITMxoAYwwPoQIbjSZ6b1fv2UB2jZMDg5CvV-MTZdF9_zCTnQCrA1YmT-oZXdoHHXhE26dMXxNXEnQVKtvgAdHQCYenHygNjBs1vmTDF5hNFJ7WINtDeDiQRj9fzesMe4gI48I4E7Ui1hLxDG9qn4srdEcZf4rDUlzBLumkVgQmcGrR3NVabM"/><span class="font-headline-sm text-headline-sm uppercase tracking-wider text-primary">Pearl Collection</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm mb-space-md">Curating heirloom textiles, majestic bridal trousseaus, and bespoke family occasionwear across three generations on Gandhi Bazar Main Road, Shivamogga.</p><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface"><p class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[18px]">schedule</span><span>Showroom Timings: 10:00 AM – 9:30 PM (All 7 Days)</span></p><p class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[18px]">call</span><span>Direct Concierge: <a class="hover:text-primary underline transition-colors" href="tel:+916363330107">+91 63633 30107</a></span></p></div></div><div class="lg:col-span-3 flex flex-col"><h4 class="font-label-lg text-label-lg uppercase tracking-widest text-primary mb-space-sm">Showroom Address</h4><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm leading-relaxed">Opposite Kanika Parmeshwari Temple,<br/>Near Hira Cut Piece,<br/>Gandhi Bazar Main Road,<br/>Shivamogga, Karnataka – 577202</p><div class="flex items-center gap-space-sm mt-auto"><a class="inline-flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-[#244e3d] hover:text-primary transition-colors" href="https://wa.me/916363330107" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">chat</span><span>WhatsApp Direct</span></a><span class="text-outline-variant">•</span><a class="inline-flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="tel:+916363330107"><span class="material-symbols-outlined text-[16px]">call</span><span>Call Showroom</span></a></div></div><div class="lg:col-span-2 flex flex-col"><h4 class="font-label-lg text-label-lg uppercase tracking-widest text-primary mb-space-sm">Curated Edits</h4><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-primary transition-colors"><a data-path="the-edit" href="#">The Master Edit</a></li><li class="hover:text-primary transition-colors"><a data-path="womens-couture" href="#">Bridal Kanjivarams</a></li><li class="hover:text-primary transition-colors"><a data-path="mens-occasionwear" href="#">Royal Bandhgalas</a></li><li class="hover:text-primary transition-colors"><a data-path="kids-celebration" href="#">Festive Heirlooms</a></li><li class="hover:text-primary transition-colors"><a data-path="wedding-atelier" href="#">Trousseau Advisory</a></li></ul></div><div class="lg:col-span-3 flex flex-col"><h4 class="font-label-lg text-label-lg uppercase tracking-widest text-primary mb-space-sm">Private Salons</h4><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">Reserve a private trousseau suite with our master draper and wardrobe stylers for weddings, engagements, and milestone celebrations.</p><a class="inline-flex items-center justify-center font-label-md text-label-md uppercase tracking-wider bg-primary text-on-primary py-space-xs px-space-md hover:bg-primary-container transition-colors" href="https://wa.me/916363330107?text=Bespoke%20Appointment%20Request%20for%20Pearl%20Collection%20Shivamogga" rel="noopener noreferrer" target="_blank">Book Private Suite</a></div></div><div class="mt-space-lg pt-space-md flex flex-wrap items-center gap-space-xs"><span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Collections:</span><span class="font-body-sm text-body-sm text-on-surface-variant">Pure Kanjivaram Silks Shivamogga • Malnad Bridal Trousseau • Pure Zari Sarees • Groom Sherwanis Gandhi Bazar • Banarasi Heirloom Silks • South Indian Wedding Wardrobes Karnataka • Handcrafted Kurta Sets</span></div><div class="mt-space-md pt-space-sm flex flex-col sm:flex-row items-center justify-between gap-space-sm text-center sm:text-left"><p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">© 2025 Pearl Collection Family Showroom, Shivamogga. All rights reserved.</p><p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Gandhi Bazar Main Road • Pure Silk &amp; Couture Excellence</p></div></div></footer></body></html>
